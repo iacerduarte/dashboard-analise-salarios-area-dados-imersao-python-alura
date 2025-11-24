@@ -2,11 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-with st.sidebar:
-    st.markdown("### Autor")
-    st.write("Iacer Duarte")
-    st.markdown("[LinkedIn](https://www.linkedin.com/in/iacerduarte)")
-
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
 st.set_page_config(
@@ -142,3 +137,4 @@ with col_graf4:
 st.subheader("Dados Detalhados")
 
 st.dataframe(df_filtrado)
+
